@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block title %}ಠ ͜ʖ ಠ{% endblock %}
+
+{% block content %}
+<div class="video-container">
+    <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/{{ video.video_id }}?rel=0" 
+            title="{{ video.title }}" 
+            frameborder="0" 
+            allowfullscreen>
+    </iframe>
+    <h2>{{ video.title }}</h2>
+    <p> <!-- Description or more information about the video can go here, but do it through the videos.json file --> </p>
+         <!-- Navigation Buttons -->
+         <div class="navigation">
+            {% if next_video_id %}
+            <a href="{{ url_for('videos.video_page', video_id=next_video_id) }}" class="button">Previous</a> <!-- switched the previous and next blocks to maintain next/previous flow on site-->
+            {% else %}
+                <span class="placeholder"></span> <!-- placeholder so buttons don't shift on first and last pages -->
+            {% endif %}
+    
+            {% if prev_video_id %}
+                <a href="{{ url_for('videos.video_page', video_id=prev_video_id) }}" class="button">Next</a>
+            {% else %}
+                <span class="placeholder"></span>
+            {% endif %}
+         </div>
+</div>
+{% endblock %}

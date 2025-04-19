@@ -1,19 +1,50 @@
-p {
+
+
+.video-title {
+    font-size: 14px; /* Adjust the font size */
+    color: #fff; /* Set the text color */
+    text-align: center; /* Center-align the text */
+    margin-top: 0px; /* Add spacing above the text */
+}
+
+.link-container {
+    display: flex; /* Use flexbox to align items in a row */
+    justify-content: center; /* Centers the items horizontally */
+    gap: 20px; /* Adds space between the images */
+}
+
+.video-link img,
+.photo-link img {
+    max-width: 500px; /* Set the maximum width for images */
+    height: auto; /* Maintain the aspect ratio */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.photo-link img {
+    max-width: 507px; /* Set the maximum width for images */
+
+}
+
+
+h1 {
     width:500px;
     margin: 0 auto;
     background: black;
     text-align: center;
-    font-size: 60px;
+    font-size: 40px;
     color: #9F9D95;
     font-weight: bolder;
 }
 
-h1 {
-    color: rgb(111, 111, 111);
+h2 {
+    width:500px;
+    margin: 0 auto;
+    background: black;
+    text-align: center;
     font-size: 15px;
-    margin-left: 100px;
-    margin-right: 100px;
-    align: top;
+    color: #9F9D95;
+    font-weight: bolder;
 }
 
 body {
@@ -22,14 +53,196 @@ body {
 
 img {
     display: block;
-    max-width: 70%;
+    max-width: 50%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
 }
 
 .gills_img {
-    max-width: 70%;
+    max-width: 50%;
     height: auto;
     display: block;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Space between items */
+    padding: 20px;
+}
+
+.video-item {
+    text-align: center;
+}
+
+.video-item img {
+    width: 100%; /* Make thumbnails responsive */
+    max-width: 200px;
+    border-radius: 5px; /* Optional: Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hover effect */
+}
+
+.video-item img:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow */
+}
+
+.video-container {
+    display: flex; /* Allows flexible positioning of elements */
+    flex-direction: column; /* Aligns content vertically */
+    align-items: center; /* Centers the video horizontally */
+    justify-content: center; /* Centers the content vertically if needed */
+    margin: 20px auto; /* Adds spacing and centers container on the page */
+    max-width: 1200px; /* Optional: Limits the width of the container */
+    text-align: center; /* Centers the text inside the container */
+}
+
+.video-container iframe {
+    width: 100%; /* Makes the video responsive */
+    max-width: 1200px; /* Keeps it within original dimensions */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 10px; /* Optional: Adds rounded corners to the video */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Optional: Adds shadow for depth */
+    aspect-ratio: 16 / 9;
+}
+
+.photo-grid {
+    display: grid; /* Enables grid layout */
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Responsive grid */
+    gap: 10px; /* Spacing between thumbnails */
+    padding: 10px; /* Space around the grid */
+}
+
+.photo-grid img {
+    width: 100%; /* Ensures thumbnails fit within their container */
+    height: auto; /* Maintains aspect ratio */
+    object-fit: cover; /* Crops if needed to fit the container */
+    border: 2px solid #ccc; /* Optional: Adds a border around each image */
+    border-radius: 5px; /* Optional: Adds rounded corners */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.photo-grid img:hover {
+    transform: scale(1.05); /* Slightly enlarges on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adds a shadow on hover */
+}
+
+.photo-container {
+    display: flex; /* Allows flexible positioning of elements */
+    flex-direction: column; /* Aligns content vertically */
+    align-items: center; /* Centers the video horizontally */
+    justify-content: center; /* Centers the content vertically if needed */
+    margin: 20px auto; /* Adds spacing and centers container on the page */
+    max-width: 1200px; /* Optional: Limits the width of the container */
+    text-align: center; /* Centers the text inside the container */
+}
+
+.navigation {
+    display: flex;
+    justify-content: center; /* changed from space between */
+    gap: 100px; /* puts space between the buttons */
+    margin-top: 20px;
+}
+
+.button {
+    text-decoration: none;
+    color: black;
+    background-color: #b8b8b8;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #b8b8b8;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center; /* changed from space between */
+    gap: 100px; /* puts space between the buttons */
+    margin-top: 20px;
+}
+
+.pagination a {
+    text-decoration: none;
+    color: black;
+    background-color: #b8b8b8;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.pagination a:hover {
+    background-color: #6f6f6f;
+}
+
+.pagination button {
+    background-color: #b3b3b3; /* Button color */
+    color: rgb(0, 0, 0); /* Text color */
+    border: 2px black; /* Remove borders */
+    padding: 10px 20px; /* Button size */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.pagination button:hover {
+    background-color: #6f6f6f; /* Change color on hover */
+}
+
+.pagination {
+    display: flex;
+    justify-content: center; /* Center buttons */
+    gap: 10px; /* Space between buttons */
+    align-items: center;
+}
+
+html, body {
+    height: 100%; /* Make the entire viewport available */
+    margin: 0; /* Remove default browser margins */
+    display: flex;
+    flex-direction: column; /* Stack the content vertically */
+}
+
+.container {
+    flex: 1; /* Let the main content take up all available space */
+}
+
+.navbar {
+    display: flex; /* Flexbox for horizontal centering */
+    justify-content: center; /* Center links horizontally */
+    align-items: center; /* Center links vertically */
+    background-color: #1a1a1a; /* Optional: Navbar background */
+    padding: 10px 0; /* Space inside the navbar */
+    width: 100%; /* Make sure it spans the full width */
+    font-size: 30px;
+}
+
+.text-links:link {
+    color: #9F9D95;
+}
+  
+.text-links:visited {
+    color: #9F9D95;
+}
+  
+.text-links:hover {
+    color: green;
+}
+  
+.text-links:active {
+    color: red;
+}
+  
+.text-links:link, a:visited {
+    text-decoration: none;
+}
+
+.page{
+    font-size: 20px;
+    color:#9F9D95
 }
