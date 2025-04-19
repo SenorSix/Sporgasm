@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock %}</title>
+
+        <!-- Favicon Links For Each HTML Page -->
+        <link rel="icon" href="{{ url_for('static', filename='images/site assets/favicon.ico') }}" type="image/x-icon">
+        <link rel="icon" sizes="16x16" href="{{ url_for('static', filename='images/site assets/favicon-16x16.png') }}" type="image/png">
+        <link rel="icon" sizes="32x32" href="{{ url_for('static', filename='images/site assets/favicon-32x32.png') }}" type="image/png">
+        <link rel="apple-touch-icon" sizes="192x192" href="{{ url_for('static', filename='images/site assets/android-chrome-192x192.png') }}">
+        <link rel="apple-touch-icon" sizes="512x512" href="{{ url_for('static', filename='images/site assets/android-chrome-512x512.png') }}">
+
+        <!-- CSS link -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+
+
+    {% block head %}{% endblock %}
+</head>
+<body>
+    <div class="container">
+        {% block content %}
+        {% endblock %}
+    </div>
+</body>
+{% if request.path not in ['/'] %}
+<nav class="navbar">
+        <a href="{{ url_for('home') }}" class="text-links">Home</a>&nbsp;&nbsp;&nbsp;
+    {% if request.path != url_for('videos.video_gallery') %}
+        <a href="{{ url_for('videos.video_gallery') }}" class="text-links">Videos</a>&nbsp;&nbsp;&nbsp;
+    {% endif %}
+    {% if request.path != url_for('photos.photo_gallery') %}
+        <a href="{{ url_for('photos.photo_gallery') }}" class="text-links">Photos</a>&nbsp;&nbsp;&nbsp;
+    {% endif %}
+<!-- Other navigation links -->
+</nav>
+{% endif %}
+</html>

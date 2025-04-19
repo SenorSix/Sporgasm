@@ -1,5 +1,5 @@
 #!/bin/sh
-'''exec' "/home/mr-6/Desktop/Python/Python Projects/Sporgasm Versions/Sporgasm v3/Sporgasm/venv/bin/python3" "$0" "$@"
+'''exec' "/home/mr-6/Desktop/Python/Python Projects/Sporgasm Versions/Sporgasm v4/venv/bin/python3.12" "$0" "$@"
 ' '''
 # -*- coding: utf-8 -*-
 import re

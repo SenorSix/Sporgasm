@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block title %}Videos{% endblock %}
+
+
+{% block content %}
+    <h1>Microscopy Videos</h1>
+
+    <div class="video-grid">
+        {% for video in videos %}
+        <div class="video-item">
+            <a href="{{ url_for('videos.video_page', video_id=video.id) }}">
+                <div class="thumbnail-container">
+                    <img src="{{ video.thumbnail }}" alt="{{ video.title }}">
+                </div>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+
+    <div class="pagination">
+        {% if has_prev %}
+            <a href="{{ url_for('videos.video_gallery', page=page - 1) }}" class="prev">Previous</a>
+        {% else %}
+            <span class="placeholder"></span> <!-- Add placeholder for alignment -->
+        {% endif %}
+
+        <span class="page">Page {{ page }}</span>
+
+        {% if has_next %}
+            <a href="{{ url_for('videos.video_gallery', page=page + 1) }}" class="next">Next</a>
+        {% else %}
+            <span class="placeholder"></span> <!-- Add placeholder for alignment -->
+        {% endif %}
+    </div>
+{% endblock %}

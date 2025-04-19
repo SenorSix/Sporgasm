@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block title %}┌( ಠ_ಠ )┘{% endblock %}
+
+{% block content %}
+<div class="photo-container">
+    <!-- Display the photo -->
+    <img src="{{ url_for('static', filename=photo.photo_path.split('static/')[1]) }}" alt="{{ photo.title }}">
+
+    <h2>{{ photo.title }}</h2>
+    <!-- Add description or other details -->
+    <p>{{ photo.description }}</p>
+
+    <div class="navigation">
+        {% if next_photo_id %}
+            <a href="{{ url_for('photos.photo_page', photo_id=next_photo_id) }}" class="button">Previous</a> <!-- switched the previous and next blocks to maintain next/previous flow on site-->
+        {% else %}
+            <span class="placeholder"></span>
+        {% endif %}
+    
+        {% if prev_photo_id %}
+            <a href="{{ url_for('photos.photo_page', photo_id=prev_photo_id) }}" class="button">Next</a>
+        {% else %}
+            <span class="placeholder"></span>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

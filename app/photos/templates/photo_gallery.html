@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block title %}Photos{% endblock %}
+
+{% block content %}
+    <h1>Microscopy Photos</h1>
+
+    <div class="photo-grid">
+        {% for photo in photos %}
+        <a href="{{ url_for('photos.photo_page', photo_id=photo.id) }}">
+            <img src="{{ url_for('static', filename=photo.thumbnail_path.split('static/')[1]) }}" alt="{{ photo.title }}">
+            
+        </a>
+        {% endfor %}
+    </div>
+
+<div class="pagination">
+    {% if has_prev %}
+    <a href="{{ url_for('photos.photo_gallery', page=page - 1) }}" class ="prev">Previous</a>
+    {% else %}
+        <span></span>
+    {% endif %}
+
+    <span class="page">Page {{ page }}</span>
+
+    {% if has_next %}
+    <a href="{{ url_for('photos.photo_gallery', page=page + 1) }}" class="next">Next`</a>
+    {% else %}
+        <span class="placeholder"></span>
+    {% endif %}
+</div>
+{% endblock %}
