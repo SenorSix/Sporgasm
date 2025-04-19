@@ -24,7 +24,7 @@
     <span class="page">Page {{ page }}</span>
 
     {% if has_next %}
-    <a href="{{ url_for('photos.photo_gallery', page=page + 1) }}" class="next">Next`</a>
+    <a href="{{ url_for('photos.photo_gallery', page=page + 1) }}" class="next">Next</a>
     {% else %}
         <span class="placeholder"></span>
     {% endif %}

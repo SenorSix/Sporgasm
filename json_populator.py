@@ -1,7 +1,7 @@
 import os
 import json
 
-def generate_json_from_photos(full_res_folder, thumbnail_folder, json_path='app/data/photos.json'):
+def generate_json_from_photos(full_res_folder, thumbnail_folder, json_path='app/data/me_page.json'):
     # Ensure folders exist
     if not os.path.exists(full_res_folder) or not os.path.exists(thumbnail_folder):
         print("Error: One or both folders do not exist.")
@@ -46,4 +46,4 @@ def generate_json_from_photos(full_res_folder, thumbnail_folder, json_path='app/
     print(f"JSON updated successfully! Total photos: {len(photos)}")
 
 # Example Usage
-generate_json_from_photos('app/static/images/thumb temp', 'app/static/images/thumb temp')
+generate_json_from_photos('app/static/images/site assets', 'app/static/images/site assets')

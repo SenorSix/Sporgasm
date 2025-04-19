@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title %}Sporgasm{% endblock %}
+
+{% block content %}
+<div class="Title">
+    <!-- Loop through photos in JSON-->
+     {% for donkey in title_image %}
+            <img src="{{ url_for('static', filename=donkey.photo_path) }}" alt="{{ donkey.title }}">
+     {% endfor %}
+</div>
+
+<div class="Links">
+    {% for donkey in link_images %}
+            <a href="{{ donkey.link if donkey.link else '#' }}">
+                <img src="{{ url_for('static', filename=donkey.photo_path) }}" alt="{{ donkey.title }}">
+            </a>
+    {% endfor %}            
+</div> 
+
+<div class="Gills">
+    {% for donkey in gills_image %}
+        <img src="{{ url_for('static', filename=donkey.photo_path) }}" alt="{{ donkey.title }}">
+    {% endfor %}
+</div>
+{% endblock %}

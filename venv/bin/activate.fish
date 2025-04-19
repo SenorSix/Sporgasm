@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV '/home/mr-6/Desktop/Python/Python Projects/Sporgasm Versions/Sporgasm v4/venv'
+set -gx VIRTUAL_ENV '/home/mr-6/Desktop/Python/Python Projects/Sporgasm Versions/Sporgasm v5/venv'
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/"bin $PATH

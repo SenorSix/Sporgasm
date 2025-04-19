@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "photo_path": "images/site assets/Title.JPG",
+        "title": "Title",
+        "description": "",
+        "link": null
+    },
+    {
+        "id": 2,
+        "photo_path": "images/site assets/yellow_mushroom.JPG",
+        "title": "Yellow Mushroom",
+        "description": "",
+        "link": "/videos"
+    },
+    {
+        "id": 3,
+        "photo_path": "images/site assets/mushroom_edge.JPG",
+        "title": "Mushroom Edge",
+        "description": "",
+        "link": "/photos"
+    },
+    {
+        "id": 4,
+        "photo_path": "images/site assets/Gills.JPG",
+        "title": "Gills",
+        "description": "",
+        "link": null
+    }
+]

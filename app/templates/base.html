@@ -27,7 +27,7 @@
 </body>
 {% if request.path not in ['/'] %}
 <nav class="navbar">
-        <a href="{{ url_for('home') }}" class="text-links">Home</a>&nbsp;&nbsp;&nbsp;
+        <a href="{{ url_for('index.home') }}" class="text-links">Home</a>&nbsp;&nbsp;&nbsp;
     {% if request.path != url_for('videos.video_gallery') %}
         <a href="{{ url_for('videos.video_gallery') }}" class="text-links">Videos</a>&nbsp;&nbsp;&nbsp;
     {% endif %}
