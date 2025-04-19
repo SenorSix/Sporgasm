@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('angela_bp.static', filename='band_name_generator.css') }}">
+    <title>Band Name Generator</title>
+</head>
+<body>
+    <p>Band Name Generator</p>
+    <br>
+    <h1>
+        <form action="{{ url_for('angela_bp.greet') }}" method="post" id="bandform">
+            <label for="city">What city did you grow up in?</label>
+            <input type="text" id="city" name="city"><br><br>
+            <label for="pet_name">What is a pet's name?</label>
+            <input type="text" id="pet_name" name="pet_name">
+            <input type="submit" value="Submit">
+        </form>
+    </h1>
+
+    <br><br><br>
+    <h2>Your band's name could be{{ " " if band_name else "" }}{{ band_name or "....." }}</h2>
+
+    <form action="{{ url_for('angela_bp.reset') }}" method="get" style="display: inline;">
+        <input type="submit" value="Reset">
+    </form>
+
+    <br><br><br>
+    <h3><a href="{{ url_for('angela_bp.start') }}">Back to Angela's World</a></h3>
+
+    <script>
+        const cityInput = document.getElementById('city');
+        const petNameInput = document.getElementById('pet_name');
+        const form = document.getElementById('bandform');
+
+        cityInput.addEventListener('keypress', function (e) {
+            if (e.key === 'Enter') {
+                e.preventDefault();
+                petNameInput.focus();
+            }
+        });
+
+        petNameInput.addEventListener('keypress', function (e) {
+            if (e.key === 'Enter') {
+                form.submit();
+            }
+        });
+    </script>
+</body>
+</html>

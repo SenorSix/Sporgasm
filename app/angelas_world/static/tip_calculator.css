@@ -1,0 +1,107 @@
+p {
+    width:1000px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 
+    2px 2px 0 black, 
+    -2px -2px 0 black, 
+    -2px 2px 0 black, 
+    2px -2px 0 black, 
+    2px 0 0 black, 
+    -2px 0 0 black, 
+    0 2px 0 black, 
+    0 -2px 0 black;
+}
+
+h1 {
+    color: white;
+    font-size: 30px;
+    margin-left: 0px;
+    align: top;
+    background-color: #FFC107;
+    display: inline;
+    margin-top: 2000px;
+    text-shadow: 
+    2px 2px 0 black, 
+    -2px -2px 0 black, 
+    -2px 2px 0 black, 
+    2px -2px 0 black, 
+    2px 0 0 black, 
+    -2px 0 0 black, 
+    0 2px 0 black, 
+    0 -2px 0 black;
+
+}
+
+h2 {
+    color: white;
+    font-size: 40px;
+    margin-left: 0px;
+    display: inline; 
+    text-shadow: 
+    2px 2px 0 black, 
+    -2px -2px 0 black, 
+    -2px 2px 0 black, 
+    2px -2px 0 black, 
+    2px 0 0 black, 
+    -2px 0 0 black, 
+    0 2px 0 black, 
+    0 -2px 0 black; 
+  }
+
+h3 {
+    color: red;
+    font-size: 20px;
+    margin-left: 0px;
+    display: inline;  /* Ensure it's inline to wrap around text only */
+    text-shadow: 
+    2px 2px 0 black, 
+    -2px -2px 0 black, 
+    -2px 2px 0 black, 
+    2px -2px 0 black, 
+    2px 0 0 black, 
+    -2px 0 0 black, 
+    0 2px 0 black, 
+    0 -2px 0 black; 
+  /* Creates an outline effect around the text */
+}
+
+body {
+    background-image: url('tip_calculator.jpg');
+    background-size: cover;
+}
+
+/* Styling the text input boxes */
+input[type="text"] {
+    background-color: white;  /* Change to your desired background color */
+    border: 1px solid black;     /* Change to your desired border color */
+    color: black;               /* Change to your desired text color */
+    padding: 2px;              /* Add padding for better spacing */
+    border-radius: 5px;         /* Optional: Add rounded corners */
+    position: relative;         /* Use relative positioning */
+    top: -4px;                 /* Move the input boxes 10 pixels upward */
+}
+
+
+a:link {
+    color: white;
+  }
+  
+  a:visited {
+    color: white;
+  }
+  
+  a:hover {
+    color: green;
+  }
+  
+  a:active {
+    color: red;
+  }
+  
+  a:link, a:visited {
+    text-decoration: none;
+  }

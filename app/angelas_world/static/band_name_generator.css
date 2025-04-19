@@ -1,0 +1,87 @@
+p {
+    width:1000px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+}
+
+h1 {
+    color: black;
+    font-size: 30px;
+    margin-left: 0px;
+    align: top;
+    background-color: #FFC107;
+    display: inline;
+    margin-top: 2000px;
+}
+
+h2 {
+  color: black;
+  font-size: 40px;
+  margin-left: 0px;
+  display: inline;  /* Ensure it's inline to wrap around text only */
+  text-shadow: 
+      2px 2px 0 #FFC107, 
+      -2px -2px 0 #FFC107, 
+      -2px 2px 0 #FFC107, 
+      2px -2px 0 #FFC107, 
+      2px 0 0 #FFC107, 
+      -2px 0 0 #FFC107, 
+      0 2px 0 #FFC107, 
+      0 -2px 0 #FFC107;  /* Creates an outline effect around the text */
+}
+
+h3 {
+    color: black;
+    font-size: 20px;
+    margin-left: 0px;
+    display: inline;  /* Ensure it's inline to wrap around text only */
+    text-shadow: 
+        2px 2px 0 #FFC107, 
+        -2px -2px 0 #FFC107, 
+        -2px 2px 0 #FFC107, 
+        2px -2px 0 #FFC107, 
+        2px 0 0 #FFC107, 
+        -2px 0 0 #FFC107, 
+        0 2px 0 #FFC107, 
+        0 -2px 0 #FFC107;  /* Creates an outline effect around the text */
+}
+
+body {
+    background-image: url('Band Name Generator.png');
+    background-size: cover;
+}
+
+/* Styling the text input boxes */
+input[type="text"] {
+    background-color: rgb(240, 240, 159);  /* Change to your desired background color */
+    border: 1px solid black;     /* Change to your desired border color */
+    color: black;               /* Change to your desired text color */
+    padding: 2px;              /* Add padding for better spacing */
+    border-radius: 5px;         /* Optional: Add rounded corners */
+    position: relative;         /* Use relative positioning */
+    top: -4px;                 /* Move the input boxes 10 pixels upward */
+}
+
+
+a:link {
+    color: black;
+  }
+  
+  a:visited {
+    color: black;
+  }
+  
+  a:hover {
+    color: green;
+  }
+  
+  a:active {
+    color: red;
+  }
+  
+  a:link, a:visited {
+    text-decoration: none;
+  }
