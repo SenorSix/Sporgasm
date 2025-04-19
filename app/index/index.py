@@ -25,3 +25,9 @@ def home():
         title_image=title_image, 
         link_images=link_images, 
         gills_image=gills_image) # left side is what the template will see. right side is what python passes (pizza=pizza)
+
+
+# Adding an unrelated cheatsheet for personal reference
+@index_bp.route('/command-cheatsheet')
+def command_cheatsheet():
+    return render_template('command_cheatsheet.html')

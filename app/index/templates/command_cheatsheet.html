@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Command Cheat Sheet</title>
+    <style>
+        body {
+            background-color: #1e1e1e;
+            color: #d4d4d4;
+            font-family: monospace;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #61dafb;
+        }
+        hr {
+            border: 1px solid #444;
+            margin: 40px 0;
+        }
+        pre {
+            background-color: #2d2d2d;
+            padding: 15px;
+            border-radius: 8px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+
+<h1>My Frequently Used Commands</h1>
+<pre>
+=== Local File Operations (Laptop) ===
+scp -r Sporgasm_v3 user@ip:/home/user/             - Copy folder to server (run from local, be in correct dir)
+cd /path/to/dir                                    - Change into directory
+ls /path/to/dir                                    - List contents of directory
+tree -L 2                                          - Tree view to level 2 (overwhelming past that)
+cat .gitignore                                     - View contents of .gitignore
+touch filename.py                                  - Create blank file
+
+=== Server File Operations ===
+sudo tree /var/www                                 - Show contents of /var/www
+sudo rm -rf /var/www/sporgasm                      - Delete a folder (sporgasm example)
+sudo cp -r /var/www/html/project /var/www/backup   - Copy folder to backup location
+sudo mv /path/to/file /destination/path            - Move file/folder on server
+
+=== Git & Version Control ===
+git init                             # Initialize new Git repo
+git add .                            # Stage all changes
+git commit -m "message"              # Commit changes
+git branch -M main                   # Rename current branch to 'main' (do early)
+git remote add origin <url>         # Link to remote repo (GitHub, etc.)
+git remote -v                        # View remote URLs
+git push -u origin main              # Push to remote repo
+git status                           # Check repo status
+git filter-repo --force --path credentials.json --invert-paths
+                                                   - Strip file from commit history (NOTE: ask AI before reusing)
+
+=== Deployment & Apache ===
+sudo systemctl restart apache2                     - Restart Apache
+sudo chown -R www-data:www-data /var/www/html      - Fix Apache ownership for web files
+
+=== System Maintenance (Linux) ===
+sudo apt update                                    - Update package lists
+sudo apt dist-upgrade                              - Full upgrade, handles dependencies
+
+=== Security ===
+sudo apt install unattended-upgrades               - Install auto-security updates
+sudo dpkg-reconfigure --priority=low unattended-upgrades
+                                                   - Configure how unattended-upgrades behaves
+
+=== Sed & One-Liners ===
+sed -i 's|/red/|/|g' /var/www/html/forum/cache/themes/theme17/*.css
+                                                   - Replace all `/red/` with `/` in CSS files (NOTE: ask AI before using again)
+</pre>
+
+<hr>
+
+<h1>Additional Suggested Commands</h1>
+<pre>
+=== File Permissions & Ownership ===
+chmod +x filename                                   - Make file executable
+chown user:group file                               - Change ownership of file
+ls -la                                              - Show permissions and hidden files
+
+=== Python & Virtual Environments ===
+python3 -m venv venv                                - Create a virtual environment
+source venv/bin/activate                            - Activate virtual environment
+deactivate                                          - Exit virtual environment
+pip install -r requirements.txt                     - Install packages from requirements
+
+=== Flask & Blueprint Tips ===
+flask run                                           - Run a Flask app (if configured)
+export FLASK_APP=run.py                             - Set Flask entry point
+Blueprints: always register in __init__.py and use url_prefix
+
+=== General Tools ===
+nano filename                                       - Edit file in terminal
+history | grep command                              - Find command in history
+clear                                               - Clear terminal screen
+
+=== Git Best Practices ===
+echo filename >> .gitignore                         - Add file to .gitignore
+git log --oneline                                   - View concise commit history
+git diff                                            - View file changes before commit
+
+</pre>
+
+</body>
+</html>
