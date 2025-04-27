@@ -15,6 +15,7 @@ def ox_tail():
 @index_bp.route("/")
 def home():
     pizza = ox_tail() #Load JSON data
+    print(pizza)
 
     # Pass filtered data to the template
     title_image = [item for item in pizza if item["title"] == "Title"]

@@ -12,11 +12,14 @@
 
 <div class="Links">
     {% for donkey in link_images %}
-            <a href="{{ donkey.link if donkey.link else '#' }}">
-                <img src="{{ url_for('static', filename=donkey.photo_path) }}" alt="{{ donkey.title }}">
-            </a>
-    {% endfor %}            
-</div> 
+        <a href="{{ donkey.link if donkey.link else '#' }}"
+           {% if donkey.link and donkey.link.startswith('http') %}
+               target="_blank" rel="noopener noreferrer"
+           {% endif %}>
+            <img src="{{ url_for('static', filename=donkey.photo_path) }}" alt="{{ donkey.title }}">
+        </a>
+    {% endfor %}
+</div>
 
 <div class="Gills">
     {% for donkey in gills_image %}
