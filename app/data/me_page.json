@@ -1,0 +1,401 @@
+[
+    {
+        "id": 1,
+        "thumbnail_path": "app/static/images/thumbnails/twig 2.jpg",
+        "photo_path": "app/static/images/gallery/twig 2.jpg",
+        "title": "twig 2",
+        "description": ""
+    },
+    {
+        "id": 2,
+        "thumbnail_path": "app/static/images/thumbnails/purple white 1.jpg",
+        "photo_path": "app/static/images/gallery/purple white 1.jpg",
+        "title": "purple white 1",
+        "description": ""
+    },
+    {
+        "id": 3,
+        "thumbnail_path": "app/static/images/thumbnails/IMG_0036.jpg",
+        "photo_path": "app/static/images/gallery/IMG_0036.jpg",
+        "title": "IMG_0036",
+        "description": ""
+    },
+    {
+        "id": 4,
+        "thumbnail_path": "app/static/images/thumbnails/dunes 2.jpg",
+        "photo_path": "app/static/images/gallery/dunes 2.jpg",
+        "title": "dunes 2",
+        "description": ""
+    },
+    {
+        "id": 5,
+        "thumbnail_path": "app/static/images/thumbnails/mushroom waves 1.jpg",
+        "photo_path": "app/static/images/gallery/mushroom waves 1.jpg",
+        "title": "mushroom waves 1",
+        "description": ""
+    },
+    {
+        "id": 6,
+        "thumbnail_path": "app/static/images/thumbnails/pink shroom 1.jpg",
+        "photo_path": "app/static/images/gallery/pink shroom 1.jpg",
+        "title": "pink shroom 1",
+        "description": ""
+    },
+    {
+        "id": 7,
+        "thumbnail_path": "app/static/images/thumbnails/IMG_0028.jpg",
+        "photo_path": "app/static/images/gallery/IMG_0028.jpg",
+        "title": "IMG_0028",
+        "description": ""
+    },
+    {
+        "id": 8,
+        "thumbnail_path": "app/static/images/thumbnails/old man spores 2.jpg",
+        "photo_path": "app/static/images/gallery/old man spores 2.jpg",
+        "title": "old man spores 2",
+        "description": ""
+    },
+    {
+        "id": 9,
+        "thumbnail_path": "app/static/images/thumbnails/gold thing 1.jpg",
+        "photo_path": "app/static/images/gallery/gold thing 1.jpg",
+        "title": "gold thing 1",
+        "description": ""
+    },
+    {
+        "id": 10,
+        "thumbnail_path": "app/static/images/thumbnails/IMG_0016.jpg",
+        "photo_path": "app/static/images/gallery/IMG_0016.jpg",
+        "title": "IMG_0016",
+        "description": ""
+    },
+    {
+        "id": 11,
+        "thumbnail_path": "app/static/images/thumbnails/yellow shroom 2.jpg",
+        "photo_path": "app/static/images/gallery/yellow shroom 2.jpg",
+        "title": "yellow shroom 2",
+        "description": ""
+    },
+    {
+        "id": 12,
+        "thumbnail_path": "app/static/images/thumbnails/IMG_0017.jpg",
+        "photo_path": "app/static/images/gallery/IMG_0017.jpg",
+        "title": "IMG_0017",
+        "description": ""
+    },
+    {
+        "id": 13,
+        "thumbnail_path": "app/static/images/thumbnails/IMG_0018.jpg",
+        "photo_path": "app/static/images/gallery/IMG_0018.jpg",
+        "title": "IMG_0018",
+        "description": ""
+    },
+    {
+        "id": 14,
+        "thumbnail_path": "app/static/images/thumbnails/poked 1.jpg",
+        "photo_path": "app/static/images/gallery/poked 1.jpg",
+        "title": "poked 1",
+        "description": ""
+    },
+    {
+        "id": 15,
+        "thumbnail_path": "app/static/images/thumbnails/mantis.jpg",
+        "photo_path": "app/static/images/gallery/mantis.jpg",
+        "title": "mantis",
+        "description": ""
+    },
+    {
+        "id": 16,
+        "thumbnail_path": "app/static/images/thumbnails/IMG_0004.jpg",
+        "photo_path": "app/static/images/gallery/IMG_0004.jpg",
+        "title": "IMG_0004",
+        "description": ""
+    },
+    {
+        "id": 17,
+        "thumbnail_path": "app/static/images/thumbnails/IMG_0022.jpg",
+        "photo_path": "app/static/images/gallery/IMG_0022.jpg",
+        "title": "IMG_0022",
+        "description": ""
+    },
+    {
+        "id": 18,
+        "thumbnail_path": "app/static/images/thumbnails/fly wing 1.jpg",
+        "photo_path": "app/static/images/gallery/fly wing 1.jpg",
+        "title": "fly wing 1",
+        "description": ""
+    },
+    {
+        "id": 19,
+        "thumbnail_path": "app/static/images/thumbnails/pink fold 1.jpg",
+        "photo_path": "app/static/images/gallery/pink fold 1.jpg",
+        "title": "pink fold 1",
+        "description": ""
+    },
+    {
+        "id": 20,
+        "thumbnail_path": "app/static/images/thumbnails/copper 2.jpg",
+        "photo_path": "app/static/images/gallery/copper 2.jpg",
+        "title": "copper 2",
+        "description": ""
+    },
+    {
+        "id": 21,
+        "thumbnail_path": "app/static/images/thumbnails/edge 1.jpg",
+        "photo_path": "app/static/images/gallery/edge 1.jpg",
+        "title": "edge 1",
+        "description": ""
+    },
+    {
+        "id": 22,
+        "thumbnail_path": "app/static/images/thumbnails/IMG_0027.jpg",
+        "photo_path": "app/static/images/gallery/IMG_0027.jpg",
+        "title": "IMG_0027",
+        "description": ""
+    },
+    {
+        "id": 23,
+        "thumbnail_path": "app/static/images/thumbnails/brian hair 2.jpg",
+        "photo_path": "app/static/images/gallery/brian hair 2.jpg",
+        "title": "brian hair 2",
+        "description": ""
+    },
+    {
+        "id": 24,
+        "thumbnail_path": "app/static/images/thumbnails/bacon.jpg",
+        "photo_path": "app/static/images/gallery/bacon.jpg",
+        "title": "bacon",
+        "description": ""
+    },
+    {
+        "id": 25,
+        "thumbnail_path": "app/static/images/thumbnails/yellow stamen 2.jpg",
+        "photo_path": "app/static/images/gallery/yellow stamen 2.jpg",
+        "title": "yellow stamen 2",
+        "description": ""
+    },
+    {
+        "id": 26,
+        "thumbnail_path": "app/static/images/thumbnails/IMG_0009.jpg",
+        "photo_path": "app/static/images/gallery/IMG_0009.jpg",
+        "title": "IMG_0009",
+        "description": ""
+    },
+    {
+        "id": 27,
+        "thumbnail_path": "app/static/images/thumbnails/mushroom larvae.jpg",
+        "photo_path": "app/static/images/gallery/mushroom larvae.jpg",
+        "title": "mushroom larvae",
+        "description": ""
+    },
+    {
+        "id": 28,
+        "thumbnail_path": "app/static/images/thumbnails/bush spike 1.jpg",
+        "photo_path": "app/static/images/gallery/bush spike 1.jpg",
+        "title": "bush spike 1",
+        "description": ""
+    },
+    {
+        "id": 29,
+        "thumbnail_path": "app/static/images/thumbnails/leaf@.jpg",
+        "photo_path": "app/static/images/gallery/leaf@.jpg",
+        "title": "leaf@",
+        "description": ""
+    },
+    {
+        "id": 30,
+        "thumbnail_path": "app/static/images/thumbnails/New-Out99993_99992.jpg",
+        "photo_path": "app/static/images/gallery/New-Out99993_99992.jpg",
+        "title": "New-Out99993_99992",
+        "description": ""
+    },
+    {
+        "id": 31,
+        "thumbnail_path": "app/static/images/thumbnails/fly eye 2.jpg",
+        "photo_path": "app/static/images/gallery/fly eye 2.jpg",
+        "title": "fly eye 2",
+        "description": ""
+    },
+    {
+        "id": 32,
+        "thumbnail_path": "app/static/images/thumbnails/garaevs.jpg",
+        "photo_path": "app/static/images/gallery/garaevs.jpg",
+        "title": "garaevs",
+        "description": ""
+    },
+    {
+        "id": 33,
+        "thumbnail_path": "app/static/images/thumbnails/IMG_0008.jpg",
+        "photo_path": "app/static/images/gallery/IMG_0008.jpg",
+        "title": "IMG_0008",
+        "description": ""
+    },
+    {
+        "id": 34,
+        "thumbnail_path": "app/static/images/thumbnails/royal purple 1.jpg",
+        "photo_path": "app/static/images/gallery/royal purple 1.jpg",
+        "title": "royal purple 1",
+        "description": ""
+    },
+    {
+        "id": 35,
+        "thumbnail_path": "app/static/images/thumbnails/old edge 2.jpg",
+        "photo_path": "app/static/images/gallery/old edge 2.jpg",
+        "title": "old edge 2",
+        "description": ""
+    },
+    {
+        "id": 36,
+        "thumbnail_path": "app/static/images/thumbnails/street flower 1.jpg",
+        "photo_path": "app/static/images/gallery/street flower 1.jpg",
+        "title": "street flower 1",
+        "description": ""
+    },
+    {
+        "id": 37,
+        "thumbnail_path": "app/static/images/thumbnails/IMG_0013.jpg",
+        "photo_path": "app/static/images/gallery/IMG_0013.jpg",
+        "title": "IMG_0013",
+        "description": ""
+    },
+    {
+        "id": 38,
+        "thumbnail_path": "app/static/images/thumbnails/rough leaf 2.jpg",
+        "photo_path": "app/static/images/gallery/rough leaf 2.jpg",
+        "title": "rough leaf 2",
+        "description": ""
+    },
+    {
+        "id": 39,
+        "thumbnail_path": "app/static/images/thumbnails/better bush spike 2.jpg",
+        "photo_path": "app/static/images/gallery/better bush spike 2.jpg",
+        "title": "better bush spike 2",
+        "description": ""
+    },
+    {
+        "id": 40,
+        "thumbnail_path": "app/static/images/thumbnails/purple flower 1.jpg",
+        "photo_path": "app/static/images/gallery/purple flower 1.jpg",
+        "title": "purple flower 1",
+        "description": ""
+    },
+    {
+        "id": 41,
+        "thumbnail_path": "app/static/images/thumbnails/w.jpg",
+        "photo_path": "app/static/images/gallery/w.jpg",
+        "title": "w",
+        "description": ""
+    },
+    {
+        "id": 42,
+        "thumbnail_path": "app/static/images/thumbnails/imposter 2.jpg",
+        "photo_path": "app/static/images/gallery/imposter 2.jpg",
+        "title": "imposter 2",
+        "description": ""
+    },
+    {
+        "id": 43,
+        "thumbnail_path": "app/static/images/thumbnails/yellow orange flower 2.jpg",
+        "photo_path": "app/static/images/gallery/yellow orange flower 2.jpg",
+        "title": "yellow orange flower 2",
+        "description": ""
+    },
+    {
+        "id": 44,
+        "thumbnail_path": "app/static/images/thumbnails/IMG_0007.jpg",
+        "photo_path": "app/static/images/gallery/IMG_0007.jpg",
+        "title": "IMG_0007",
+        "description": ""
+    },
+    {
+        "id": 45,
+        "thumbnail_path": "app/static/images/thumbnails/craters 2.jpg",
+        "photo_path": "app/static/images/gallery/craters 2.jpg",
+        "title": "craters 2",
+        "description": ""
+    },
+    {
+        "id": 46,
+        "thumbnail_path": "app/static/images/thumbnails/black hair.jpg",
+        "photo_path": "app/static/images/gallery/black hair.jpg",
+        "title": "black hair",
+        "description": ""
+    },
+    {
+        "id": 47,
+        "thumbnail_path": "app/static/images/thumbnails/old man surface 2.jpg",
+        "photo_path": "app/static/images/gallery/old man surface 2.jpg",
+        "title": "old man surface 2",
+        "description": ""
+    },
+    {
+        "id": 48,
+        "thumbnail_path": "app/static/images/thumbnails/splotchy 1.jpg",
+        "photo_path": "app/static/images/gallery/splotchy 1.jpg",
+        "title": "splotchy 1",
+        "description": ""
+    },
+    {
+        "id": 49,
+        "thumbnail_path": "app/static/images/thumbnails/pink 1.jpg",
+        "photo_path": "app/static/images/gallery/pink 1.jpg",
+        "title": "pink 1",
+        "description": ""
+    },
+    {
+        "id": 50,
+        "thumbnail_path": "app/static/images/thumbnails/street petal 1.jpg",
+        "photo_path": "app/static/images/gallery/street petal 1.jpg",
+        "title": "street petal 1",
+        "description": ""
+    },
+    {
+        "id": 51,
+        "thumbnail_path": "app/static/images/thumbnails/IMG_0037.jpg",
+        "photo_path": "app/static/images/gallery/IMG_0037.jpg",
+        "title": "IMG_0037",
+        "description": ""
+    },
+    {
+        "id": 52,
+        "thumbnail_path": "app/static/images/thumbnails/IMG_0010.jpg",
+        "photo_path": "app/static/images/gallery/IMG_0010.jpg",
+        "title": "IMG_0010",
+        "description": ""
+    },
+    {
+        "id": 53,
+        "thumbnail_path": "app/static/images/thumbnails/love 2.jpg",
+        "photo_path": "app/static/images/gallery/love 2.jpg",
+        "title": "love 2",
+        "description": ""
+    },
+    {
+        "id": 54,
+        "thumbnail_path": "app/static/images/thumbnails/dirty 2.jpg",
+        "photo_path": "app/static/images/gallery/dirty 2.jpg",
+        "title": "dirty 2",
+        "description": ""
+    },
+    {
+        "id": 55,
+        "thumbnail_path": "app/static/images/thumbnails/mary j 1.jpg",
+        "photo_path": "app/static/images/gallery/mary j 1.jpg",
+        "title": "mary j 1",
+        "description": ""
+    },
+    {
+        "id": 56,
+        "thumbnail_path": "app/static/images/thumbnails/4-26-25.jpg",
+        "photo_path": "app/static/images/gallery/4-26-25.jpg",
+        "title": "4-26-25",
+        "description": ""
+    },
+    {
+        "id": 57,
+        "thumbnail_path": "app/static/images/thumbnails/4-26-25_2.jpg",
+        "photo_path": "app/static/images/gallery/4-26-25_2.jpg",
+        "title": "4-26-25_2",
+        "description": ""
+    }
+]

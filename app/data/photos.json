@@ -383,5 +383,19 @@
         "photo_path": "app/static/images/gallery/IMG_0008.jpg",
         "title": "Little Green Man",
         "description": ""
+    },
+    {
+        "id": 56,
+        "thumbnail_path": "app/static/images/thumbnails/4-26-25.jpg",
+        "photo_path": "app/static/images/gallery/4-26-25.jpg",
+        "title": "Back of Peacock Feather",
+        "description": ""
+    },
+    {
+        "id": 57,
+        "thumbnail_path": "app/static/images/thumbnails/4-26-25_2.jpg",
+        "photo_path": "app/static/images/gallery/4-26-25_2.jpg",
+        "title": "Front of Peacock Feather",
+        "description": ""
     }
 ]

@@ -15,13 +15,20 @@
     },
     {
         "id": 3,
+        "photo_path": "images/site assets/sporgasm_forum.JPG",
+        "title": "Sporgasm Forum",
+        "description": "",
+        "link": "https://forum.sporgasm.org"
+    },
+    {
+        "id": 4,
         "photo_path": "images/site assets/mushroom_edge.JPG",
         "title": "Mushroom Edge",
         "description": "",
         "link": "/photos"
     },
     {
-        "id": 4,
+        "id": 5,
         "photo_path": "images/site assets/Gills.JPG",
         "title": "Gills",
         "description": "",
