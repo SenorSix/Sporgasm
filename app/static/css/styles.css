@@ -136,7 +136,8 @@ html, body {
 
 .Title img {
     display: block;
-    max-width: 50%;
+    width: 100%;
+    max-width: 1000px; /* using width and max-width to adjust size for desktop and mobile */
     height: auto;
     margin: 0 auto; /* Centers the block element horizontally */
 }
@@ -156,7 +157,8 @@ html, body {
 
 .Gills img {
     display: block;
-    max-width: 50%;
+    width: 100%;
+    max-width: 1000px;
     height: auto;
     margin: 0 auto; /* Centers the block element horizontally */
 }
