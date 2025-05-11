@@ -1,4 +1,4 @@
-Sporgasm started as a need to practice web development. I had microscopy photos and videos sitting on my hard drive and a domain, www.sporgasm.org, that had been sitting dormant for over a year.
+Sporgasm started as a need to practice web development. I had microscopy photos and videos I made sitting on my hard drive and a domain, www.sporgasm.org, that had been sitting dormant for over a year.
 
 This is where I built my foundation in Python, Flask, and server management.
 
