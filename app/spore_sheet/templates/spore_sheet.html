@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block title %}{{ mushroom.name }} - Sporgasm{% endblock %}
+
+{% block content %}
+<div class="spore-sheet-container" style="text-align: center; max-width: 700px; margin: auto; color: white;">
+
+  <!-- Common Name -->
+  <h2 style="margin-bottom: 0;">{{ mushroom.name }}</h2>
+
+<!-- Scientific Name (smaller + closer) -->
+<h2 style="font-size: 3em; font-style: italic; margin-top: 0; color: #ccc;">
+    {{ mushroom.scientific_name }}
+  </h2>
+
+  <!-- Image -->
+  <img src="{{ url_for('static', filename=mushroom.home_photo_path) }}" alt="{{ mushroom.name }}" style="width: 200%; max-width: 600px; margin: 20px 0; border-radius: 8px;">
+
+  <!-- Description -->
+  <p style="font-size: 1.1em; line-height: 1.5em; margin-bottom: 20px;">
+    Description: {{ mushroom.description }}
+  </p>
+
+  <!-- Location -->
+  <p><strong>Location:</strong> {{ mushroom.location }}</p>
+
+  <!-- Edibility -->
+  <p>
+    <strong>Edibility:</strong>
+    {% if mushroom.is_edible %}
+      Edible 🍽️
+    {% else %}
+      Not Edible ☠️
+    {% endif %}
+  </p>
+
+  <!-- Other Common Names -->
+  {% if mushroom.other_common_names %}
+    <p><strong>Other Common Names:</strong> {{ mushroom.other_common_names | join(', ') }}</p>
+  {% endif %}
+
+</div>
+{% endblock %}

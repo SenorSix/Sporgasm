@@ -21,6 +21,31 @@
     {% endfor %}
 </div>
 
+<h2 class="mushroom-header">Mushroom Database</h2>
+
+<!-- Search bar -->
+<form method="get" action="/" style="margin-bottom: 20px; text-align: center;">
+    <input type="text" name="q" value="{{ query }}" placeholder="Search mushrooms..." style="padding: 5px; width: 300px;">
+    <button type="submit" style="padding: 5px;">Search</button>
+  </form>
+  
+  <!-- A–Z quick filter -->
+  <div style="text-align: center; margin-bottom: 20px;">
+    {% for letter in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ' %}
+      <a href="/?q={{ letter }}#mushroom-database" style="margin: 0 6px; color: white;">{{ letter }}</a>
+    {% endfor %}
+  </div>
+
+  {% for mushroom in mushrooms %}
+  <div class="mushroom-card">
+    <a href="{{ url_for('spore_sheet.spore_sheet', mushroom_id=mushroom.id) }}">
+      <img src="{{ url_for('static', filename=mushroom.home_photo_path) }}" alt="{{ mushroom.name }}" width="200">
+    <p><strong>{{ mushroom.name }}</strong> </p>
+    <p><strong><em>{{ mushroom.scientific_name }}</em></strong></p>
+    </a>
+  </div>
+{% endfor %}
+
 <div class="Gills">
     {% for donkey in gills_image %}
         <img src="{{ url_for('static', filename=donkey.photo_path) }}" alt="{{ donkey.title }}">

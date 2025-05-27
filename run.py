@@ -1,7 +1,11 @@
 import os
 from app import create_app
+from app.database import engine, Base
+from app import models # Ensure this imports Mushroom or other models
 
 app = create_app()
+
+Base.metadata.create_all(bind=engine)
 
 if __name__ == '__main__':
     debug_mode = os.environ.get('FLASK_DEBUG', 'false').lower() == 'true'

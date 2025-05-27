@@ -1,0 +1,627 @@
+[
+  {
+    "name": "Deathcap",
+    "scientific_name": "Amanita phalloides",
+    "location": "Europe, North America",
+    "is_edible": false,
+    "description": "Extremely toxic and often mistaken for edible species.",
+    "home_photo_path": "images/mushroom_database/deathcap/20240801_102812.jpg",
+    "source_url": "Sporgasm.org",
+    "other_common_names": ""
+  },
+  {
+    "name": "Chanterelle",
+    "scientific_name": "Cantharellus cibarius",
+    "location": "",
+    "is_edible": true,
+    "description": "",
+    "home_photo_path": "images/mushroom_database/chanterelle/Cantharellus_cibarius_-hym\u00e9nium_fausses_lamelles.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Chanterelle#/media/File:Cantharellus_cibarius_-hym%C3%A9nium_fausses_lamelles.jpg",
+    "other_common_names": ""
+  },
+  {
+    "name": "Shaggy Parasol",
+    "scientific_name": "Chlorophyllum brunneum",
+    "location": "",
+    "is_edible": null,
+    "description": "",
+    "home_photo_path": "images/mushroom_database/shaggy_parasol/Chlorophyllum_brunneum_(Shaggy_Parasol)_W_IMG_1234.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Agaricomycotina#/media/File:Chlorophyllum_brunneum_(Shaggy_Parasol)_W_IMG_1234.jpg",
+    "other_common_names": ""
+  },
+  {
+    "name": "Amanita muscaria",
+    "scientific_name": "Amanita muscaria",
+    "location": "",
+    "is_edible": true,
+    "description": "",
+    "home_photo_path": "images/mushroom_database/amanita_muscaria/Amanita_Muscaria_LO.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/amanita_muscaria_LO.jpg",
+    "other_common_names": ""
+  },
+  {
+    "name": "Amethyst Deceiver",
+    "scientific_name": "Laccaria amethystina",
+    "location": "",
+    "is_edible": true,
+    "description": "",
+    "home_photo_path": "images/mushroom_database/amethyst_deceiver/De_Famberhorst_08-11-2021._(d.j.b)_03.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:De_Famberhorst_08-11-2021._(d.j.b)_03.jpg",
+    "other_common_names": ""
+  },
+  {
+    "name": "Shaggy Ink Cap",
+    "scientific_name": "Coprinus comatus",
+    "location": "",
+    "is_edible": true,
+    "description": "",
+    "home_photo_path": "images/mushroom_database/shaggy_ink_cap/Geschubde_inktzwam_(Coprinus_comatus)._Locatie,_Paddenstoelenreservaat._11-10-2021._(actm.)_01.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Geschubde_inktzwam_%28Coprinus_comatus%29._Locatie%2C_Paddenstoelenreservaat._11-10-2021._%28actm.%29_01.jpg",
+    "other_common_names": ""
+  },
+  {
+    "name": "Parasola",
+    "scientific_name": "Parasola sp.",
+    "location": "",
+    "is_edible": null,
+    "description": "",
+    "home_photo_path": "images/mushroom_database/parasola/Hortus_Haren_18-10-2021._(actm.)_03.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Hortus_Haren_18-10-2021._%28actm.%29_03.jpg",
+    "other_common_names": ""
+  },
+  {
+    "name": "Green-Spored Parasol",
+    "scientific_name": "Chlorophyllum molybdites",
+    "location": "",
+    "is_edible": false,
+    "description": "",
+    "home_photo_path": "images/mushroom_database/green-spored_parasol/Chlorophyllum_molybdites_(5737201351).jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Chlorophyllum_molybdites_%285737201351%29.jpg",
+    "other_common_names": ""
+  },
+  {
+    "name": "Satan's Bolete",
+    "scientific_name": "Rubroboletus satanas",
+    "location": "Europe",
+    "is_edible": false,
+    "description": "Rubroboletus satanas, or Satan\u2019s bolete, is a massive, vividly colored mushroom with a beige velvety cap, red stem, and blue-staining flesh that emits a foul odor. Native to warmer European woodlands, it\u2019s poisonous and causes severe gastrointestinal distress if consumed.",
+    "home_photo_path": "images/mushroom_database/satans_bolete/BOLETUS_SATANAS_Lenz_(6105862125).jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/BOLETUS_SATANAS_Lenz_%286105862125%29.jpg",
+    "other_common_names": ""
+  },
+  {
+    "name": "Destroying Angel",
+    "scientific_name": "Amanita virosa",
+    "location": "Europe",
+    "is_edible": false,
+    "description": "The destroying angel refers to several deadly all-white Amanita species that contain lethal amatoxins and are often mistaken for edible mushrooms. They are characterized by a smooth white cap, free gills, a ring on the stalk, and a distinctive cup-like volva at the base.",
+    "home_photo_path": "images/mushroom_database/destroying_angel/European_Destroying_Angel.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/European_Destroying_Angel.jpg",
+    "other_common_names": ""
+  },
+  {
+    "name": "Panthercap",
+    "scientific_name": "Amanita pantherina",
+    "location": "Europe/Asia",
+    "is_edible": null,
+    "description": "Amanita pantherina, or the panther cap, is a toxic and psychoactive mushroom known for its brown cap covered in white warts and its close resemblance to the edible blusher, Amanita rubescens. It does not \"blush\" when damaged and features a distinctive collar-like volva at the base.",
+    "home_photo_path": "images/mushroom_database/panthercap/Amanita_pantherina_342115533.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Amanita_pantherina_342115533.jpg",
+    "other_common_names": ""
+  },
+  {
+    "name": "Common Earthball",
+    "scientific_name": "Scleroderma citrinum",
+    "location": "Europe/North America",
+    "is_edible": false,
+    "description": "Scleroderma citrinum, or the common earthball, is a tough, wart-covered fungus often mistaken for edible puffballs but is toxic and can cause gastrointestinal distress. It forms symbiotic relationships with trees and contains distinct dark interior flesh early in development.",
+    "home_photo_path": "images/mushroom_database/common_earthball/Scleroderma_citrinum_01(js),_Lodz_(Poland).jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Scleroderma_citrinum_01%28js%29%2C_Lodz_%28Poland%29.jpg",
+    "other_common_names": ""
+  },
+  {
+    "name": "Jack O'Lantern Mushroom",
+    "scientific_name": "Omphalotus olivascens",
+    "location": "North American west coast",
+    "is_edible": false,
+    "description": "Omphalotus olivascens, or the western jack-o'-lantern mushroom, is a toxic, bioluminescent species found on the west coast of North America. Often mistaken for chanterelles, it differs by having true gills, an olive tint, and a growth habit on wood.",
+    "home_photo_path": "images/mushroom_database/jack_o_lantern/Omphalotus_olivascens_125218.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Omphalotus_olivascens_125218.jpg",
+    "other_common_names": ""
+  },
+  {
+    "name": "Star Dapperling",
+    "scientific_name": "Lepiota brunneolilacea",
+    "location": "Europe",
+    "is_edible": false,
+    "description": "Lepiota brunneolilacea is a rare coastal mushroom with a brown to lilac-scaled cap and a stout stem featuring a woolly ring. It grows in sandy dunes near the sea across select areas of western and southern Europe, often near marram grass, and is considered vulnerable due to habitat loss from coastal development and climate-related changes.",
+    "home_photo_path": "images/mushroom_database/star_dapperling/star_dapperling.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Lepiota_brunneolilacea_%28Netherlands%2C_Noordwijkerhout%29_2.jpg",
+    "other_common_names": ""
+  },
+  {
+    "name": "Ghost Fungus",
+    "scientific_name": "Omphalotus nidiformis",
+    "location": "Australia",
+    "is_edible": false,
+    "description": "Omphalotus nidiformis, known as the ghost fungus, is a poisonous, bioluminescent mushroom native to Australia and parts of Asia. Its glowing fruiting bodies grow on wood, often in overlapping clusters, and resemble oyster mushrooms but cause severe gastrointestinal distress if consumed.",
+    "home_photo_path": "images/mushroom_database/ghost_fungus/ghost_fungus.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/26/2007-05-22_Omphalotus_nidiformis_%28Berk.%29_O.K._Mill_12860.jpg",
+    "other_common_names": ""
+  },
+  {
+    "name": "Vomiting Russula",
+    "scientific_name": "Russula emetica",
+    "location": "North Africa, Asia, Europe",
+    "is_edible": false,
+    "description": "Russula emetica, known as the sickener or vomiting russula, is a bright red mushroom with white gills and stem that causes severe gastrointestinal distress when eaten raw. It has a sharply peppery taste and grows in damp coniferous woodlands across the Northern Hemisphere.",
+    "home_photo_path": "images/mushroom_database/vomiting_russula/vomiting_russula.jpeg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Mushroom-IMG_3300.JPG",
+    "other_common_names": ""
+  },
+  {
+    "name": "Lilac Mycena",
+    "scientific_name": "Mycena pura",
+    "location": "North America",
+    "is_edible": false,
+    "description": "Mycena pura, or the lilac bonnet, is a small, violet-tinged mushroom with a bell-shaped cap and a radish-like smell, found in woodland habitats. It produces a white spore print and can bioaccumulate boron from its environment.",
+    "home_photo_path": "images/mushroom_database/lilac_mycena/lilac_mycena.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Mycena_pura_%281%29_%2849189426917%29.jpg",
+    "other_common_names": ""
+  },
+  {
+    "name": "Poison Fire Coral",
+    "scientific_name": "Trichoderma cornu-damae",
+    "location": "Asia",
+    "is_edible": false,
+    "description": "Trichoderma cornu-damae, also known as the poison fire coral, is a striking red fungus with coral-like branches that contains deadly toxins capable of causing multiple organ failure. Native to East Asia but now found in parts of Oceania, it is considered one of the most dangerous fungi in the world.",
+    "home_photo_path": "images/mushroom_database/poison_fire_coral/poison_fire_coral.jpeg",
+    "source_url": "https://www.inaturalist.org/observations/152126910",
+    "other_common_names": ""
+  },
+  {
+    "name": "Brown Roll-Rim",
+    "scientific_name": "Paxillus involutus",
+    "location": "Northern Hemisphere",
+    "is_edible": false,
+    "description": "Paxillus involutus, or the brown roll-rim, is a widespread funnel-shaped mushroom once considered edible but now known to cause fatal autoimmune reactions that destroy red blood cells. Though it forms beneficial mycorrhizal partnerships with trees, it is highly dangerous to humans and should never be consumed.",
+    "home_photo_path": "images/mushroom_database/brown_roll-rim/brown_roll-rim.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Fungi_big_time%21_Paxillus_involutus_%2815098517002%29.jpg",
+    "other_common_names": ""
+  },
+  {
+    "name": "Sulphur Tuft",
+    "scientific_name": "Naematoloma fasciculare",
+    "location": "Northern Europe, North America",
+    "is_edible": false,
+    "description": "Hypholoma fasciculare, or the sulphur tuft, is a bitter, poisonous mushroom that grows in dense clusters on decaying wood and is known for its striking yellow cap and greenish gills. Though visually appealing, it contains toxic compounds that can cause severe gastrointestinal distress and neurological symptoms if consumed.",
+    "home_photo_path": "images/mushroom_database/sulphur_tuft/sulphur_tuft.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/%22Sulpher_Tuft%22%2C_Naematoloma_fasciculare_%2810118844846%29.jpg",
+    "other_common_names": ""
+  },
+  {
+    "name": "False Morel",
+    "scientific_name": "Gyromitra esculenta",
+    "location": "North America, Europe",
+    "is_edible": false,
+    "description": "Gyromitra esculenta, known as the false morel or brain mushroom, is a wrinkled, reddish-brown fungus that resembles a true morel but contains a deadly toxin that can cause liver failure and death. Though still eaten in some regions after parboiling, it remains highly dangerous and is best avoided altogether.",
+    "home_photo_path": "images/mushroom_database/false_morel/false_morel.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Gyromitra_esculenta_02.jpg",
+    "other_common_names": ""
+  },
+  {
+    "name": "Deadly Galerina",
+    "scientific_name": "Galerina marginata",
+    "location": "Northern Hemisphere",
+    "is_edible": false,
+    "description": "Galerina marginata, also known as the funeral bell or deadly galerina, is a small brown mushroom that grows on decaying wood and contains deadly amatoxins similar to those in the death cap. Easily mistaken for edible species, it can cause fatal liver failure if consumed.",
+    "home_photo_path": "images/mushroom_database/deadly_galerina/deadly_galerina.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Galerina_marginata_%28Batsch%29_K%C3%BChner_274501.jpg",
+    "other_common_names": ""
+  },
+  {
+    "name": "Livid Entoloma",
+    "scientific_name": "Entoloma sinuatum",
+    "location": "North America, Europe",
+    "is_edible": false,
+    "description": "Entoloma sinuatum, also known as the livid pinkgill or lead poisoner, is a large pale mushroom with sinuate yellowish-pink gills that grows in European and North American woodlands. Though not usually deadly, it is poisonous and can cause intense gastrointestinal distress and rare neurotoxic symptoms when consumed.",
+    "home_photo_path": "images/mushroom_database/livid_entoloma/livid_entoloma.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Entoloma_sinuatum_54291818.jpg",
+    "other_common_names": [
+      "Livid Entoloma",
+      "Livid Agaric",
+      "Livid Pinkgill",
+      "Leaden Entoloma",
+      "Lead Poisoner"
+    ]
+  },
+  {
+    "name": "Yellow-Stainer",
+    "scientific_name": "Agaricus xanthodermus",
+    "location": "North America, Europe, West Asia, Africa",
+    "is_edible": false,
+    "description": "Agaricus xanthodermus, or the yellow-staining agaricus, is a white mushroom that bruises bright yellow at the base and emits a phenolic, inky odor, especially when cooked. Though it resembles edible species, it is toxic to most people and causes gastrointestinal distress.",
+    "home_photo_path": "images/mushroom_database/yellow-stainer/yellow-stainer.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Agaricus_xanthodermus_3.jpg",
+    "other_common_names": [
+      "Yellow-Staining Agaricus",
+      "Yellow-Staining Mushroom",
+      "Yellow-Stainer"
+    ]
+  },
+  {
+    "name": "Spring Destroying Angel",
+    "scientific_name": "Amanita verna",
+    "location": "Europe",
+    "is_edible": false,
+    "description": "Amanita verna, known as the fool's mushroom or spring destroying angel, is a pure white, deadly poisonous fungus that grows in European woodlands during spring. Closely related to the death cap, it contains lethal amatoxins and is easily mistaken for edible white mushrooms.",
+    "home_photo_path": "images/mushroom_database/spring_destroying_angel/spring_destroying_angel.jpeg",
+    "source_url": "https://www.inaturalist.org/observations/162182294",
+    "other_common_names": [
+      "Fool's Mushroom",
+      "Spring Destroying Angel"
+    ]
+  },
+  {
+    "name": "Inky Cap",
+    "scientific_name": "Coprinopsis atramentaria",
+    "location": "Europe, North America, Asia, 'Austrailia'",
+    "is_edible": false,
+    "description": "Coprinopsis atramentaria, also known as the common ink cap or tippler\u2019s bane, is a grey-brown mushroom that dissolves into black ink as it matures and was once used as writing ink. Though edible, it becomes toxic when combined with alcohol due to a compound called coprine, which causes severe reactions similar to disulfiram.",
+    "home_photo_path": "images/mushroom_database/inky_cap/inky_cap.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Coprin_noir_d%27encre%2C_Coprinopsis_atramentaria.jpg",
+    "other_common_names": [
+      "Common Ink Cap",
+      "Tippler's Bane",
+      "Inky Cap"
+    ]
+  },
+  {
+    "name": "Fool's Webcap",
+    "scientific_name": "Cortinarius orellanus",
+    "location": "Europe",
+    "is_edible": false,
+    "description": "Cortinarius orellanus, known as the fool\u2019s webcap, is a tan to orange-brown mushroom that appears harmless but contains deadly toxins that cause irreversible kidney failure. Native to Europe, it is one of the most dangerous fungi in the Cortinarius genus and should never be consumed.",
+    "home_photo_path": "images/mushroom_database/fools_webcap/fools_webcap.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/01/2013-10-16_Cortinarius_orellanus_1b.jpg",
+    "other_common_names": []
+  },
+  {
+    "name": "Deadly Webcap",
+    "scientific_name": "Cortinarius rubellus",
+    "location": "Northern Hemisphere",
+    "is_edible": false,
+    "description": "Cortinarius rubellus, also known as the deadly webcap, is a highly toxic mushroom found in temperate and subalpine forests across Eurasia and North America. Tan to brown in appearance, it contains potent orellanine toxins that can cause irreversible kidney failure, making it one of the deadliest mushrooms known.",
+    "home_photo_path": "images/mushroom_database/deadly_webcap/deadly_webcap.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/97/2007-07-07_Cortinarius_rubellus.jpg",
+    "other_common_names": []
+  },
+  {
+    "name": "Hen of the Woods",
+    "scientific_name": "Grifola frondosa",
+    "location": "China, Europe, North America",
+    "is_edible": true,
+    "description": "Grifola frondosa, commonly known as maitake, hen-of-the-woods, or ram's head, is a large, clustered polypore mushroom that grows at the base of hardwood trees like oaks. Valued for its rich, earthy flavor and long use in East Asian cuisine, it is also studied for potential health benefits.",
+    "home_photo_path": "images/mushroom_database/hen_woods/hen_woods.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Hen_of_the_Woods_%2822602103527%29.jpg",
+    "other_common_names": [
+      "Hen of the Woods",
+      "Dancing Mushroom",
+      "Ram's Head",
+      "Sheep's Head"
+    ]
+  },
+  {
+    "name": "Bearded Amanita",
+    "scientific_name": "Amanita ovoidea",
+    "location": "Europe",
+    "is_edible": true,
+    "description": "Amanita ovoidea, known as the European white egg or bearded amanita, is a large, white to cream-colored mushroom with a cottony ring and thick volva, found in Mediterranean regions. Though sometimes considered edible locally, it closely resembles deadly Amanita species and is generally not recommended for consumption.",
+    "home_photo_path": "images/mushroom_database/bearded_amanita/bearded_amanita.jpg",
+    "source_url": "https://www.inaturalist.org/observations/100249993",
+    "other_common_names": [
+      "Bearded Amanita",
+      "European Egg Amidella"
+    ]
+  },
+  {
+    "name": "Lilac Blewit",
+    "scientific_name": "Lepista sordida",
+    "location": "Northern Hemisphere",
+    "is_edible": true,
+    "description": "Lepista sordida, commonly known as the lilac blewit, is a small, lilac-colored edible mushroom that grows in fairy rings on grassy lawns and gardens, often with a sweet, floral aroma. It produces a pink spore print and is prized by some cultivators for its resilience and ease of outdoor propagation.",
+    "home_photo_path": "images/mushroom_database/lilac_blewit/lilac_blewit.jpg",
+    "source_url": "https://www.inaturalist.org/observations/190236619",
+    "other_common_names": [
+      "Lilac Blewit",
+      "Sordid Blewit"
+    ]
+  },
+  {
+    "name": "Cauliflower Fungus",
+    "scientific_name": "Sparassis crispa",
+    "location": "Europe",
+    "is_edible": true,
+    "description": "Sparassis crispa, commonly known as the cauliflower fungus, is a large, brain-like mushroom with creamy, wavy lobes that resemble lasagna noodles. It grows near coniferous trees, has a pleasant smell, and is considered a choice edible when young and tender.",
+    "home_photo_path": "images/mushroom_database/cauliflower_fungus/cauliflower_fungus.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Glucke_Krause.jpg",
+    "other_common_names": []
+  },
+  {
+    "name": "Conocybula Cyanopus",
+    "scientific_name": "Conocybula cyanopus",
+    "location": "North America, Europe, Asia",
+    "is_edible": true,
+    "description": "Conocybula cyanopus is a small, rare psychoactive mushroom found in grassy areas across North America, Europe, and Asia, notable for its bluish-staining stem and cinnamon-brown cap. It contains psilocybin, psilocin, and the uncommon compound aeruginascin, but is not recommended for consumption due to its resemblance to deadly lookalikes.",
+    "home_photo_path": "images/mushroom_database/conocybula_cyanopus/conocybula_cyanopus.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Conocybe_cyanopus_133592.jpg",
+    "other_common_names": []
+  },
+  {
+    "name": "Psilocybe Mexicana",
+    "scientific_name": "Psilocybe mexicana",
+    "location": "Mexico, Costa Rica, El Salvador, Guatemala",
+    "is_edible": true,
+    "description": "Psilocybe mexicana is a small, tan psychedelic mushroom historically used by indigenous Mesoamerican cultures, including the Aztecs, who called it teonan\u00e1catl (\u201cflesh of the gods\u201d). It was the species from which Dr. Albert Hofmann first isolated psilocybin and psilocin, marking a pivotal moment in the modern study of psychedelics.",
+    "home_photo_path": "images/mushroom_database/psilocybe_mexicana/psilocybe_mexicana.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Psilocybe_mexicana_R._Heim_%28424978%29.jpg",
+    "other_common_names": []
+  },
+  {
+    "name": "Golden Teacher",
+    "scientific_name": "Psilocybe cubensis",
+    "location": "World Wide",
+    "is_edible": true,
+    "description": "Psilocybe cubensis is the most widely known and cultivated psychedelic mushroom, recognized for its golden-brown cap, blue bruising, and moderate psilocybin content. Commonly called the \"golden teacher\" or \"magic mushroom,\" it thrives in tropical and subtropical climates, often found growing on dung.",
+    "home_photo_path": "images/mushroom_database/golden_teacher/golden_teacher.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Cubensis.natural.habitat-2.jpg",
+    "other_common_names": [
+      "Magic Mushroom",
+      "Gold Cap"
+    ]
+  },
+  {
+    "name": "Blue Meanies",
+    "scientific_name": "Panaeolus cyanescens",
+    "location": "North America, Central America, South America, Europe, Africa, Asia, Australia",
+    "is_edible": true,
+    "description": "Panaeolus cyanescens, commonly known as blue meanies, is a highly potent psychoactive mushroom that grows on dung in tropical and subtropical regions worldwide. Known for its bluish bruising and black spore print, it contains some of the highest recorded levels of psilocybin and psilocin among wild mushrooms.",
+    "home_photo_path": "images/mushroom_database/blue_meanies/blue_meanies.jpg",
+    "source_url": "https://www.inaturalist.org/observations/7875838",
+    "other_common_names": [
+      "Blauender D\u00fcngerling",
+      "Blue Meanies",
+      "Faleaitu",
+      "Falter-D\u00fcngerling",
+      "Hawaiian Copelandia",
+      "Jambur",
+      "Jamur",
+      "Pulouaitu",
+      "Taepovi",
+      "Tenkech"
+    ]
+  },
+  {
+    "name": "Georgia Psilocybe",
+    "scientific_name": "Psilocybe weilii",
+    "location": "Georgia",
+    "is_edible": true,
+    "description": "Psilocybe weilii is a rare, moderately potent psilocybin mushroom native to Georgia, often found in red clay soils, pine forests, or landscaped areas after rain. First described in 1995, it stains blue when bruised and is prized for its clean effects and elusive nature.",
+    "home_photo_path": "images/mushroom_database/georgia_psilocybe/georgia_psilocybe.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Weilii.jpg",
+    "other_common_names": [
+      "Georgia Psilocybe",
+      "Weil's Psilocybe"
+    ]
+  },
+  {
+    "name": "Gymnopilus Purpuratus",
+    "scientific_name": "Gymnopilus purpuratus",
+    "location": "Argentina, Australia, Chile, New Zealand, UK, Germany",
+    "is_edible": true,
+    "description": "Gymnopilus purpuratus is a small, scaly-capped psychoactive mushroom with reddish-brown tones and a fibrous stem that bruises blue, found on wood in regions including Australia, New Zealand, South America, and Europe. It contains psilocybin, psilocin, and baeocystin, with a thick rusty-orange spore print and a preference for growing in clusters on dead wood or mulch.",
+    "home_photo_path": "images/mushroom_database/gymnopilus_purpuratus/gymnopilus_purpuratus.jpg",
+    "source_url": "https://www.inaturalist.org/observations/259833718",
+    "other_common_names": []
+  },
+  {
+    "name": "Landslide Mushroom",
+    "scientific_name": "Psilocybe caerulescens",
+    "location": "Southeast US",
+    "is_edible": true,
+    "description": "Psilocybe caerulescens, also known as the landslide mushroom or \u201cderrumbe,\u201d is a potent psilocybin species historically used by the Aztecs and still employed by Mazatec shamans today. It features a viscid, brownish cap with a metallic sheen, bruises blue when handled, and grows in disturbed, clay-rich soils.",
+    "home_photo_path": "images/mushroom_database/landslide_mushroom/landslide_mushroom.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Psilocybe_caerulescens.Atlanta.jpg",
+    "other_common_names": [
+      "Landslide Mushroom",
+      "Derrumbe"
+    ]
+  },
+  {
+    "name": "Psilocybe Neoxalapensis",
+    "scientific_name": "Psilocybe neoxalapensis",
+    "location": "Veracruz, Mexico",
+    "is_edible": true,
+    "description": "Psilocybe neoxalapensis is a small, bell-shaped psilocybin mushroom native to Veracruz, Mexico, known for its reddish-brown cap, purplish spore print, and subtle blue staining that's often masked by natural pigmentation. It belongs to the Psilocybe fagicola complex and thrives in forested environments with moist, rich soil.",
+    "home_photo_path": "images/mushroom_database/psilocybe_neoxalapensis/psilocybe_neoxalapensis.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Psilocybe_neoxalapensis_1588300.jpg",
+    "other_common_names": []
+  },
+  {
+    "name": "Drunken Mushroom",
+    "scientific_name": "Psilocybe zapotecorum",
+    "location": "Oaxaca, Mexico",
+    "is_edible": true,
+    "description": "Psilocybe zapotecorum is a large, psilocybin-containing mushroom named after the Zapotec people, known for its wavy, yellowish-brown cap and striking blue-to-black bruising. It grows in subtropical forests and has historical use in indigenous ceremonies, sometimes called the \"drunken mushroom\" or \"crown of thorns mushroom.\"",
+    "home_photo_path": "images/mushroom_database/drunken_mushroom/drunken_mushroom.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Psilocybe_zapotecorum_228735323.jpg",
+    "other_common_names": [
+      "Drunken Mushroom",
+      "Crown of Thorns Mushroom"
+    ]
+  },
+  {
+    "name": "Wavy Cap",
+    "scientific_name": "Psilocybe cyanescens",
+    "location": "Europe, West Coast of North America",
+    "is_edible": true,
+    "description": "Psilocybe cyanescens, known as the wavy cap, is a potent psychedelic mushroom recognized by its caramel-brown, wavy-edged cap and strong blue bruising when handled. Found in wood chips and mulch-rich environments, it contains high levels of psilocybin and psilocin.",
+    "home_photo_path": "images/mushroom_database/wavy_cap/wavy_cap.jpeg",
+    "source_url": "https://www.inaturalist.org/observations/9189018",
+    "other_common_names": [
+      "Wavy Cap",
+      "Potent Psilocybe"
+    ]
+  },
+  {
+    "name": "Lion's Mane",
+    "scientific_name": "Hericium erinaceus",
+    "location": "North America",
+    "is_edible": true,
+    "description": "Hericium erinaceus, commonly known as lion's mane, is a distinctive edible mushroom with long white spines that resemble a cascading mane. Native to North America and Eurasia, it grows on hardwoods and is used both culinarily and in traditional medicine, though scientific evidence for its health benefits remains limited.",
+    "home_photo_path": "images/mushroom_database/lions_mane/lions_mane.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Hericium_erinaceus_%2830890449762%29.jpg",
+    "other_common_names": [
+      "Lion's Mane",
+      "Yamabushitake",
+      "Bearded Tooth Fungus",
+      "Bearded Hedgehog"
+    ]
+  },
+  {
+    "name": "Blewit",
+    "scientific_name": "Collybia nuda",
+    "location": "Europe, North America, Australia, New Zealand",
+    "is_edible": true,
+    "description": "Collybia nuda, commonly known as the wood blewit, is a widely consumed edible mushroom with lilac to purple-pink tones and a distinctive fruity odor. Found in both coniferous and deciduous forests across Europe and North America, it was recently reclassified from Lepista/Clitocybe to the genus Collybia in 2023.",
+    "home_photo_path": "images/mushroom_database/blewit/blewit.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Lepista_nuda_I.jpg",
+    "other_common_names": [
+      "Blewit",
+      "Wood Blewit"
+    ]
+  },
+  {
+    "name": "Oyster Mushroom",
+    "scientific_name": "Pleurotus ostreatus",
+    "location": "Temperate and subtropical forests around the world",
+    "is_edible": true,
+    "description": "Pleurotus ostreatus, commonly known as the oyster mushroom, is a widely cultivated and edible fungus with a fan-shaped cap resembling an oyster shell. It grows on wood in temperate and subtropical forests and is known for its delicate texture and mild, slightly sweet flavor.",
+    "home_photo_path": "images/mushroom_database/oyster_mushroom/oyster_mushroom.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/2010-10-28_Pleurotus_ostreatus_%28Jacq.%29_P._Kumm_116409_cropped.jpg",
+    "other_common_names": [
+      "Oyster Mushroom",
+      "Grey Oyster Mushroom",
+      "Oyster Fungus",
+      "Hiratake",
+      "Pearl Oyster Mushroom"
+    ]
+  },
+  {
+    "name": "Jelly Tooth",
+    "scientific_name": "Pseudohydnum gelatinosum",
+    "location": "Europe, Northern Asia",
+    "is_edible": true,
+    "description": "Pseudohydnum gelatinosum, commonly known as the toothed jelly fungus or cat\u2019s tongue, is a gelatinous, edible fungus found on dead conifer wood across Europe and Asia. In North America, the similar Pseudohydnum gelatinosum ssp. pusillum is the only known toothed jelly fungus and can be found near both coasts during cooler months.",
+    "home_photo_path": "images/mushroom_database/jelly_tooth/jelly_tooth.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Pseudohydnum_gelatinosum_05.jpg",
+    "other_common_names": [
+      "Toothed Jelly Fungus",
+      "Cat's Tongue",
+      "Jelly Tooth"
+    ]
+  },
+  {
+    "name": "Llao Llao",
+    "scientific_name": "Cyttaria hariotii",
+    "location": "Chile, Argentina",
+    "is_edible": true,
+    "description": "Cyttaria hariotii, commonly known as llao llao, llaullao, or pan de indio, is a sweet, edible mushroom native to Patagonia that parasitizes Nothofagus trees. It forms fruit-like growths on branches and is used in regional desserts, sweets, and even ice cream.",
+    "home_photo_path": "images/mushroom_database/llao_llao/llao_llao.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Cyttaria.fruit.jpg",
+    "other_common_names": [
+      "Llao Llao",
+      "Llaullao",
+      "Pan de Indio"
+    ]
+  },
+  {
+    "name": "Red Foot Bolete",
+    "scientific_name": "Neoboletus luridiformis",
+    "location": "Northern Europe, North America",
+    "is_edible": true,
+    "description": "Neoboletus luridiformis, commonly known as the scarletina bolete or red foot bolete, is a striking red-pored mushroom found in Europe and North America. Though edible when thoroughly cooked, it can cause gastrointestinal distress if eaten raw or undercooked and is sometimes confused with the toxic Rubroboletus satanas.",
+    "home_photo_path": "images/mushroom_database/red_foot_bolete/red_foot_bolete.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Boletus_erythropus1_cropped.jpg",
+    "other_common_names": [
+      "Red Foot Bolete",
+      "Scarletina Bolete",
+      "Dotted Stemmed Bolete",
+      "Dotted Stem Bolete"
+    ]
+  },
+  {
+    "name": "Oregon Brown Truffle",
+    "scientific_name": "Kalapuya brunnea",
+    "location": "Pacific Northwest",
+    "is_edible": true,
+    "description": "Kalapuya brunnea, also known as the Oregon brown truffle, is a rare truffle species found in western Oregon and northern California, known for its garlicky, cheese-like aroma and culinary value. Once mistaken for a Leucangium species, it was reclassified into its own genus in 2010 based on distinct genetic and morphological traits.",
+    "home_photo_path": "images/mushroom_database/oregon_brown_truffle/oregon_brown_truffle.jpeg",
+    "source_url": "https://inaturalist.ca/observations/108085866",
+    "other_common_names": []
+  },
+  {
+    "name": "Milk Cap",
+    "scientific_name": "Lactarius deliciosus",
+    "location": "Europe",
+    "is_edible": true,
+    "description": "Lactarius deliciosus, commonly known as the saffron milk cap or red pine mushroom, is a brightly colored, edible fungus that exudes orange-red latex and stains green when bruised. Native to Europe and symbiotic with pine trees, it has spread to other regions and is prized in various cultures for its culinary value.",
+    "home_photo_path": "images/mushroom_database/milk_cap/milk_cap.jpg",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/2009-09-28_Lactarius_deliciosus_cropped.jpg",
+    "other_common_names": [
+      "Delicious Milk Cap",
+      "Saffron Milk Cap",
+      "Red Pine Mushroom"
+    ]
+  },
+  {
+    "name": "Devil's Fingers",
+    "scientific_name": "Clathrus archeri",
+    "location": "Native to Australia and Tasmania, but has spread to Europe and North America",
+    "is_edible": false,
+    "description": "Clathrus archeri, known as the octopus stinkhorn or devil\u2019s fingers, is a bizarre red fungus that bursts from an egg-like sac into long tentacle-like arms coated in foul-smelling spore slime. Native to the Southern Hemisphere but now found globally, it\u2019s one of the most visually arresting fungi in the world.",
+    "home_photo_path": "images/mushroom_database/devils_fingers/devils_fingers.jpeg",
+    "source_url": "https://www.inaturalist.org/observations/19837929",
+    "other_common_names": [
+      "Devil's Fingers",
+      "Octopus Stinkhorn"
+    ]
+  },
+  {
+    "name": "Blue Roundhead",
+    "scientific_name": "Stropharia caerulea",
+    "location": "North America",
+    "is_edible": null,
+    "description": "Stropharia caerulea, commonly known as the blue roundhead, is a greenish-blue mushroom with a sticky cap and transient ring, found in grassy habitats across Europe and North America. Though once misidentified as psychoactive, it is now known to be non-psychedelic, and its edibility remains unknown.",
+    "home_photo_path": "images/mushroom_database/blue_roundhead/blue_roundhead.jpg",
+    "source_url": "https://www.inaturalist.org/observations/188728693",
+    "other_common_names": []
+  },
+  {
+    "name": "Portobello Mushroom",
+    "scientific_name": "Agaricus bisporus",
+    "location": "Worldwide",
+    "is_edible": true,
+    "description": "Agaricus bisporus, commonly known as the button mushroom, portobello, or champignon de Paris, is one of the most widely cultivated and consumed mushrooms globally. Native to grasslands in Eurasia and North America, it has a mild flavor, a white or brown cap depending on maturity, and some toxic lookalikes in the wild.",
+    "home_photo_path": "images/mushroom_database/portobello_mushroom/portobello_mushroom.jpg",
+    "source_url": "https://www.inaturalist.org/observations/178600827",
+    "other_common_names": [
+      "Common Mushroom",
+      "White Mushroom",
+      "Button Mushroom",
+      "Cultivated Mushroom",
+      "Table Mushroom",
+      "Champignon de Paris"
+    ]
+  }
+]

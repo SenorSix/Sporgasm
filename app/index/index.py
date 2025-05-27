@@ -1,6 +1,8 @@
 import os
 import json
-from flask import Blueprint, render_template
+from flask import Blueprint, render_template, request
+from app.database import SessionLocal
+from app.models import Mushroom
 
 # Create Blueprint
 index_bp = Blueprint('index', __name__, template_folder='templates')
@@ -12,10 +14,20 @@ def ox_tail():
         return json.load(f)
 
 # Route for the Homepage
-@index_bp.route("/")
+@index_bp.route("/", methods=["GET"])
 def home():
     pizza = ox_tail() #Load JSON data
-    print(pizza)
+    db = SessionLocal()
+    query = request.args.get("q", "").strip()
+
+    if query:
+        mushrooms = db.query(Mushroom).filter(
+            Mushroom.name.ilike(f"{query}%")
+        ).all()
+    else:
+        mushrooms = db.query(Mushroom).order_by(Mushroom.name).all()
+
+    db.close()
 
     # Pass filtered data to the template
     title_image = [item for item in pizza if item["title"] == "Title"]
@@ -25,7 +37,11 @@ def home():
         'index.html', 
         title_image=title_image, 
         link_images=link_images, 
-        gills_image=gills_image) # left side is what the template will see. right side is what python passes (pizza=pizza)
+        gills_image=gills_image,
+        mushrooms=mushrooms,
+        query=query
+    ) # left side is what the template will see. right side is what python passes (pizza=pizza)
+
 
 
 # Adding an unrelated cheatsheet for personal reference
