@@ -175,14 +175,6 @@ html, body {
 .center-img img {
     width: 750px;
 }
-
-.Links {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    margin-top: 10px;
-    flex-wrap: wrap;
-  }
   
   .link-item {
     text-align: center;
