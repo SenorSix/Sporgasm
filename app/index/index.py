@@ -31,7 +31,7 @@ def home():
 
     # Pass filtered data to the template
     title_image = [item for item in pizza if item["title"] == "Title"]
-    link_images = [item for item in pizza if item["title"] in ["Yellow Mushroom", "Sporgasm Forum", "Mushroom Edge"]]
+    link_images = [item for item in pizza if item["title"] in ["Old Man", "Mushroom Database", "Shroom Gills"]]
     gills_image = [item for item in pizza if item["title"] == "Gills"]
     return render_template(
         'index.html', 

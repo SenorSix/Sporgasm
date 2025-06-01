@@ -166,11 +166,42 @@ html, body {
 }
 
 .Links img {
-    max-width: 500px;
-    width: 100%;
+    max-width: none;
+    width: 500px;
     height: auto;
     margin: 10px; /* Adds space around each image */
 }
+
+.center-img img {
+    width: 750px;
+}
+
+.Links {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .link-item {
+    text-align: center;
+  }
+  
+  .link-label h2 {
+    margin-bottom: 10px;
+    font-size: 3em;
+  }
+  
+  .link-item img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+  }
+  
+  .center-img img {
+    max-width: 700px;
+  }
 
 .mushroom-card {
     display: inline-block;

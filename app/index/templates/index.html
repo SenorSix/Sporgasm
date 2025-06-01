@@ -11,20 +11,29 @@
 </div>
 
 <div class="Links">
-    {% for donkey in link_images %}
-        <a href="{{ donkey.link if donkey.link else '#' }}"
-           {% if donkey.link and donkey.link.startswith('http') %}
-               target="_blank" rel="noopener noreferrer"
-           {% endif %}>
-            <img src="{{ url_for('static', filename=donkey.photo_path) }}" alt="{{ donkey.title }}">
-        </a>
-    {% endfor %}
+  {% for donkey in link_images %}
+    <div class="link-item {% if donkey.highlight %}center-img{% endif %}">
+      <div class="link-label">
+        {% if donkey.title == "Old Man" %}
+          <h2>Microscopy Videos</h2>
+        {% elif donkey.title == "Mushroom Database" %}
+          <h2>Mushroom Identification</h2>
+        {% elif donkey.title == "Shroom Gills" %}
+          <h2>Microscopy Photos</h2>
+        {% endif %}
+      </div>
+      <a href="{{ donkey.link if donkey.link else '#' }}">
+        <img src="{{ url_for('static', filename=donkey.photo_path) }}" alt="{{ donkey.title }}">
+      </a>
+    </div>
+  {% endfor %}
 </div>
 
-<h2 class="mushroom-header">Mushroom Database</h2>
-
 <!-- Search bar -->
-<form method="get" action="/" style="margin-bottom: 20px; text-align: center;">
+
+<div id="mushroom-db" style="text-align: center; margin: 200px 0;">
+ <h2>Mushroom Database</h2>
+<form method="get" action="/" style="margin-bottom: 20px; margin-top: 10px; text-align: center;">
     <input type="text" name="q" value="{{ query }}" placeholder="Search mushrooms..." style="padding: 5px; width: 300px;">
     <button type="submit" style="padding: 5px;">Search</button>
   </form>

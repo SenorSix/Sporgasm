@@ -8,22 +8,23 @@
     },
     {
         "id": 2,
-        "photo_path": "images/site assets/yellow_mushroom.JPG",
-        "title": "Yellow Mushroom",
+        "photo_path": "images/site assets/old_man.JPG",
+        "title": "Old Man",
         "description": "",
         "link": "/videos"
     },
     {
         "id": 3,
-        "photo_path": "images/site assets/sporgasm_forum.JPG",
-        "title": "Sporgasm Forum",
+        "photo_path": "images/site assets/mushroom_database.JPG",
+        "title": "Mushroom Database",
+        "highlight": true,
         "description": "",
-        "link": "https://forum.sporgasm.org"
+        "link": "#mushroom-db"
     },
     {
         "id": 4,
-        "photo_path": "images/site assets/mushroom_edge.JPG",
-        "title": "Mushroom Edge",
+        "photo_path": "images/site assets/shroom_gills.JPG",
+        "title": "Shroom Gills",
         "description": "",
         "link": "/photos"
     },
