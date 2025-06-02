@@ -195,6 +195,23 @@ html, body {
     max-width: 700px;
   }
 
+  @media (max-width: 768px) {
+    .Links {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .link-item img,
+    .center-img img {
+      max-width: 90vw;
+      width: 100%;
+    }
+  
+    .link-label h2 {
+      font-size: 2em;
+    }
+  }
+
 .mushroom-card {
     display: inline-block;
     text-align: center;
