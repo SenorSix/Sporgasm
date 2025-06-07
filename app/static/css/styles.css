@@ -154,7 +154,7 @@ html, body {
 .Title img {
     display: block;
     width: 100%;
-    max-width: 1000px; /* using width and max-width to adjust size for desktop and mobile */
+    max-width: 900px; /* using width and max-width to adjust size for desktop and mobile */
     height: auto;
     margin: 0 auto; /* Centers the block element horizontally */
 }
@@ -192,7 +192,7 @@ html, body {
   }
   
   .center-img img {
-    max-width: 700px;
+    max-width: 600px;
   }
 
   @media (max-width: 768px) {
@@ -403,3 +403,45 @@ html, body {
     width: 100%; /* Make sure it spans the full width */
     font-size: 30px;
 }
+
+/* SPORE_SHEET.HTML_______________________________________________________________________________________________________________________________*/
+
+.spore-sheet-container {
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+    color: white;
+  }
+  
+  .spore-sheet-container img {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px 0;
+    border-radius: 8px;
+    height: auto;
+  }
+  
+  .scientific-name {
+    font-size: 3em;
+    font-style: italic;
+    margin-top: 0;
+    color: #ccc;
+  }
+  
+  .mushroom-description {
+    font-size: 1.1em;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+  }
+
+  .common-name {
+    margin-bottom: 0;
+  }
+  
+  .scientific-name {
+    margin-top: 0px;
+    font-style: italic;
+    font-size: 2.5em;
+    color: #ccc;
+  }
+  

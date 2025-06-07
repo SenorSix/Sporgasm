@@ -33,7 +33,7 @@
 
 <div id="mushroom-db" style="text-align: center; margin: 200px 0;">
  <h2>Mushroom Database</h2>
-<form method="get" action="/" style="margin-bottom: 20px; margin-top: 10px; text-align: center;">
+<form method="get" action="/#mushroom-db" style="margin-bottom: 20px; margin-top: 10px; text-align: center;">
     <input type="text" name="q" value="{{ query }}" placeholder="Search mushrooms..." style="padding: 5px; width: 300px;">
     <button type="submit" style="padding: 5px;">Search</button>
   </form>
@@ -41,7 +41,7 @@
   <!-- A–Z quick filter -->
   <div style="text-align: center; margin-bottom: 20px;">
     {% for letter in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ' %}
-      <a href="/?q={{ letter }}#mushroom-database" style="margin: 0 6px; color: white;">{{ letter }}</a>
+      <a href="/?q={{ letter }}#mushroom-db" style="margin: 0 6px; color: white;">{{ letter }}</a>
     {% endfor %}
   </div>
 

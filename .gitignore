@@ -1,8 +1,21 @@
+# Virtual environment
 venv/
-app/index/templates/command_cheatsheet.html
+
+# Temp + editor files
+*.swp
+*.pyc
+__pycache__/
+
+# Environment variables
+.env
+
+# One-off scripts (optional)
 add_mushroom.py
 import_mushrooms.py
-json_database_pop.py
-json_populator.py
 patch.py
-test_db.py
+*_pop.py
+test_*.py
+
+# Temporary or scratch files
+app/index/templates/command_cheatsheet.html
+
